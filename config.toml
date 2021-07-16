@@ -1,0 +1,405 @@
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "A.Tulukin"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Anatoly Tulukin"
+        tagline = "Software Development Engineer in Test"
+        avatar = "headshot.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "DMV"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "301-742-9524"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:tulukina@yahoo.com"
+        text = "TulukinA@yahoo.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.linkedin.com/in/anatoly-tulukin-b63b4a152/"
+        text = "www.atulukin.com"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+       
+        
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "B.A. Business and Finance"
+        university = "University of Maryland"
+        dates = "2008 - 2011"
+        [[params.education.list]]
+        degree = "A.A. Mathematics"
+        university = "Montgomery College"
+        dates = "2006 - 2008"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Russian"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Software Development Engineer in Test specialized in software validation and Quality Assurance (QA) seeking an entry level position in progressive organization with growth opportunities."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Quality Assurance Engineer"
+        dates = "2019 - 01/2021"
+        company = "LifeFuels Inc."
+        details = "Responsible for testing both mobile and web-based applications including Firmware for an embedded system."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/TulukinA"
+        title = "TulukinA"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/anatoly-tulukin-b63b4a152"
+        title = "A.Tulukin"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/AnatolyTulukin"
+        title = "AnatolyTulukin"
+
+
+
+
+#start of example config file 
+
+
+# baseurl = "https://www.example.com/" # Make sure to end baseurl with a '/'
+# title = "Your site title"
+# author = "Your name"
+# # Shown in the side menu
+# copyright = "&copy; 2016. All rights reserved."
+# canonifyurls = true
+# paginate = 10
+
+# [indexes]
+#   tag = "tags"
+#   topic = "topics"
+
+# [params]
+#   # Shown in the home page
+#   subtitle = "A Hugo Theme"
+#   brand = "Blackburn"
+#   googleAnalytics = "Your Google Analytics tracking ID"
+#   disqus = "Your Disqus shortname"
+#   # CSS name for highlight.js
+#   highlightjs = "androidstudio"
+#   highlightjs_extra_languages = ["yaml"]
+#   dateFormat = "02 Jan 2006, 15:04"
+#   # Include any custom CSS and/or JS files
+#   # (relative to /static folder)
+#   custom_css = ["css/my.css"]
+#   custom_js = ["js/my.js"]
+
+#   [params.piwikAnalytics]
+#     siteid = 2
+#     piwikroot = "//analytics.example.com/"
+
+# [menu]
+#   # Shown in the side menu.
+#   [[menu.main]]
+#     name = "Home"
+#     pre = "<i class='fa fa-home fa-fw'></i>"
+#     weight = 1
+#     identifier = "home"
+#     url = "/"
+#   [[menu.main]]
+#     name = "Posts"
+#     pre = "<i class='fa fa-list fa-fw'></i>"
+#     weight = 2
+#     identifier = "post"
+#     url = "/post/"
+#   [[menu.main]]
+#     name = "About"
+#     pre = "<i class='fa fa-user fa-fw'></i>"
+#     weight = 3
+#     identifier = "about"
+#     url = "/about/"
+#   [[menu.main]]
+#     name = "Contact"
+#     pre = "<i class='fa fa-phone fa-fw'></i>"
+#     weight = 4
+#     url = "/contact/"
+
+# [social]
+#   # Link your social networking accounts to the side menu
+#   # by entering your username or ID.
+
+#   # SNS microblogging
+#   twitter = "*"
+#   gnusocial = "*" # Specify href (e.g. https://quitter.se/yourusername)
+#   facebook = "*"
+#   googleplus = "*"
+#   weibo = "*"
+#   tumblr = "*"
+
+#   # SNS photo/video sharing
+#   instagram = "*"
+#   flickr = "*"
+#   photo500px = "*"
+#   pinterest = "*"
+#   youtube = "*"
+#   vimeo = "*"
+#   vine = "*"
+#   slideshare = "*"
+
+#   # SNS career oriented
+#   linkedin = "*"
+#   xing = "*"
+
+#   # SNS news
+#   reddit = "*"
+#   hackernews = "*"
+
+#   # Techie
+#   github = "yoshiharuyamashita"
+#   gitlab = "*"
+#   bitbucket = "*"
+#   stackoverflow = "*"
+#   serverfault = "*"
+
+#   # Gaming
+#   steam = "*"
+#   mobygames = "*"
+
+#   # Music
+#   lastfm = "*"
+#   discogs = "*"
+
+#   # Other
+#   keybase = "*"
